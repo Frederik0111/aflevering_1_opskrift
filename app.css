@@ -1,35 +1,51 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    background-color: #e0ffcd;
+    background-color: #ebd8d0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+/* jeg har et tomt område nederst fra body på siden */
+}
+
+h1 {text-align: center;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
 }
 
 header {
-    background-color: #e0ffcd;
+    background-color: #eac9c1;
 
 }
 
 #introduktion {
-    background: #fdffcd;
+    background: #fec3a6;
 
 }
 
 #ingredienser {
-    background-color: #ffebbb;
+    background-color: #bcaf9c;
 
 }
 
 #fremgangsmetode {
-    background-color: #ffcab0;
+    background-color: #bcaf9c;
 
 }
 
-/* brug selectors */
-/* få lavet et grid layout */
-/* find et farve tema */
-/* image styling */
+#footer {
+    background-color: #69626d;
+
+}
+
+img {
+  border-radius: 20px;
+/* curry.png skal være centeret */
+}
+
