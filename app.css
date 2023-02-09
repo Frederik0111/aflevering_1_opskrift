@@ -1,9 +1,35 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    background-color: rgba(255, 115, 0, 0.192);
+    background-color: #e0ffcd;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+header {
+    background-color: #e0ffcd;
+
+}
+
+#introduktion {
+    background: #fdffcd;
+
+}
+
+#ingredienser {
+    background-color: #ffebbb;
+
+}
+
+#fremgangsmetode {
+    background-color: #ffcab0;
+
 }
 
 /* brug selectors */
 /* få lavet et grid layout */
 /* find et farve tema */
+/* image styling */
