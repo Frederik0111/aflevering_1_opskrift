@@ -7,7 +7,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-/* jeg har et tomt område nederst fra body på siden */
 }
 
 h1 {text-align: center;}
@@ -19,33 +18,58 @@ h1 {text-align: center;}
     margin-bottom: 1em;
 }
 
+.box {
+    height: auto;
+    width: auto;
+    float: left;
+    max-width: 200px;
+    max-height: 300px;
+}
+
 header {
     background-color: #eac9c1;
-
 }
 
 #introduktion {
     background: #fec3a6;
-
 }
 
 #ingredienser {
     background-color: #bcaf9c;
-
 }
 
 #fremgangsmetode {
     background-color: #bcaf9c;
-
 }
 
 #footer {
-    background-color: #69626d;
-
+    background-color: #ebd8d0;
 }
 
 img {
   border-radius: 20px;
-/* curry.png skal være centeret */
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    flex-basis: 40%;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 10px;
+    /* jeg vil gerne have at teksten har en afstand til venstre, men uden at ændre på grid boksen */
+}
